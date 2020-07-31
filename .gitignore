@@ -1,9 +1,4 @@
-# Created by .ignore support plugin (hsz.mobi)
-### JetBrains template
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion
-
 *.iml
-
 .idea/
 *.ipr
 *.iws
@@ -15,23 +10,12 @@ build/
 .settings/
 bin/
 out/
-
-# IntelliJ
 /out/
-
-# mpeltonen/sbt-idea plugin
 .idea_modules/
-
-# JIRA plugin
 atlassian-ide-plugin.xml
-
-# Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
-
 /*.zip
-
 *.DS_Store
-
 cmake-build-debug/
