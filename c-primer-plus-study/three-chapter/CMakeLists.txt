@@ -1,0 +1,1 @@
+add_library(three-chapter Platinum.c Platinum.h)
