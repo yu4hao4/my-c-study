@@ -2,7 +2,7 @@
 #include "mysqrt.h"
 int main() {
     printf("Hello, World!\n");
-    printf("ä¸­æ–‡!\n");
+    printf("ÖÐÎÄ!\n");
     mysqrt(9);
     return 0;
 }

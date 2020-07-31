@@ -8,7 +8,7 @@ project(my_c_study VERSION 1.0)
 set(CMAKE_C_STANDARD 99)
 
 # 添加可执行文件
-add_executable(my_c_study main.c mysqrt.c mysqrt.h)
+add_executable(my_c_study main.c math-function/mysqrt.c math-function/mysqrt.h)
 
 # 添加 MathFunctions 库
 add_subdirectory(math-function)
