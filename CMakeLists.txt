@@ -18,6 +18,12 @@ add_subdirectory(
 add_subdirectory(
         c-primer-plus-study/three-chapter
 )
+add_subdirectory(
+        leetcode-study
+)
+add_subdirectory(
+        my-test-code
+)
 
 # 指定编译目标(my_c_study)时包含的路径
 # 这样才能找到 .h 文件

@@ -4,10 +4,11 @@
 #include "Platinum.h"
 int main() {
 //    printf("Hello, World!\n");
-//    printf("ÖÐÎÄ!\n");
+//    printf("ä¸­æ–‡!\n");
 //    mysqrt(9);
     int num = twoSum(10,20);
     printf("%d",num);
+    getchar();
 //    getWeight();
     return 0;
 }
