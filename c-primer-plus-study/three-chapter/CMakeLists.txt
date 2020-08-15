@@ -5,6 +5,8 @@ add_library(
         Bases.c Bases.h
         TooBig.c TooBig.h
         Print2.c Print2.h
+        CharCode.c CharCode.h
+        AltNames.c AltNames.h
         ExecTest.c
         )
 
