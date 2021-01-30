@@ -59,13 +59,18 @@ int main() {
             WSACleanup();
             return -1;
         }
-        char receiveMessage[50000];
+
+        if (sServer == 180) {
+            printf("accept() successs! code:%d\n");
+        }
+
+        char receiveMessage[5000];
         nLeft = sizeof(receiveMessage);
-        printf("nLeft %d",nLeft);
         ptr = (char *)&receiveMessage;
         while(nLeft>0) {
             //接收数据
             ret = recv(sServer, ptr, 5000, 0);
+            printf("%d", ret);
             if (ret == SOCKET_ERROR) {
                 printf("recv() failed!\n");
                 return -1;
